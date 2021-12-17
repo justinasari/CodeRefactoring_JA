@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Adds background color with a shade of white */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Adds a 20px padding around header. Specifies font and colors used. */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Sets the element's display type and font size. */
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Gives the "seo" of Horiseon a shade of white */
+.horiseon {
+    color: #d9dcd6;
+}
+
+/* Adds padding to top of nav and offsets to the left 20px. Specifies where it sits and what font-family and size to use. */
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* No listing type (bullets, numbers, etc) */
+ul {
+    list-style-type: none;
+}
+
+/* Sets element's display type and offsets to the right by 25px. */
+li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Adds white to text with no text decorations. */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Specifies font size */
+p {
+    font-size: 16px;
+}
+
+/* Specifies size and position of image as well as the link to image. */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Specifies position and display of the selector. */
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Specifies the image to position to the left. */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Specifies the image to position to the right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Specifies position, size, color, and style of the font. */
+.maintext {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Specifies its boundary for max height */
+img {
+    max-height: 200px;
+}
+
+/* Offsets up 20px and specifies font size. */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Specifies its position and size. Displays a shade of blue and specific font-family. */
+article {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Offsets up 32px. Uses the color white for its text. */
+section {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Centers text and offsets up 10px. */
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Specifies element's display type and its position and size. */
+section img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Specifies padding around footer. Clears both left and right. Chooses specific font-family and centers text. */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Specifies font size and offsets up 20px. */
+h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
